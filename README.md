@@ -1,31 +1,26 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="home.css">
-    <title>Arissa's Website</title>
-    <link rel="shortcut icon" type="x-icon" href="img/logo.png">
+html {
+  overflow-x: hidden; }
 
- <!--Header-->
-    <section id="header">
-        <div class="header container">
-            <div class="nav-bar">
-                <div class="brand">
-                    <a href="#home"><h1><span>NUR ALIFAH ILYANA</span>BT MOHD NIZAM</h1></a>
-                </div>
-                <div class="nav-list">
-                    <div class="happy"><div class="bar"></div></div>
-                    <ul>
-                        <li><a href="#home" data-after="Home">Home</a></li>
-                        <li><a href="aboutme.html" target="_self" data-after="Aboutme">About me</a></li>
-                        <li><a href="education.html" target="_self" data-after="Education"> My Education</a></li>
-                        <li><a href="experience.html" target="_self" data-after="Experience">My Experience</a></li>
-                        <li><a href="family.html" target="_self" data-after="Family">My Family</a></li>
-                        <li><a href="#Gallery" data-after="Gallery">Gallery</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--End Header-->
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: #000;
+  background-color: #f4ede5; }
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400; }
+
+h1, h2 {
+  font-weight: 700; }
+
+.subheading {
+  color: #f34949; }
+
+.bg-white {
+  background-color: #fff; }
+
+.bg-grey {
+  background-color: #f7f8f9; }
+
+
